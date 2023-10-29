@@ -3,11 +3,7 @@
 	--fondo: #141414;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+
 
 body {
 	background: var(--fondo);
@@ -52,23 +48,35 @@ header nav a.activo {
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
+	
+}
+
+.pelicula-principal #tt{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
 	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), 
 	background-position: center center;
-	background-size: cover;
+	background: size 100px;
 	margin-bottom: 3.12em;
 	display: flex;
 	align-items: end;
+	margin: 0 auto;
+	margin: bottom 4px;px 
 }
+
+
 
 .pelicula-principal .contenedor {
 	margin: 0 auto;
-	margin-bottom: 6.25em;
+	margin: bottom 4px;px 
+	
 }
 
 .pelicula-principal .titulo {
 	font-weight: 600;
 	font-size: 3.12em;
-	margin-bottom: 0.4em;
+	margin-bottom: 0em;
 }
 
 .pelicula-principal .descripcion {
